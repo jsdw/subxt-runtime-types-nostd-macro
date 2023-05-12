@@ -1,6 +1,6 @@
 # subxt-runtime-call-macro (no_std)
 
-An experiment to use `subxt-codegen` to provide a macro which generates the runtime types givcen some metadata in a nostd (but requires alloc) compatible way.
+A work experiment to use `subxt-codegen` to provide a macro which generates the runtime types given some metadata in a `no_std` compatible way.
 
 Notes:
 - This is quite hacky; `subxt-codegen` (and `subxt-metadata`) are both tuned towards generating code that works well for Subxt. To work around this, we have to mimic some `subxt` deps that the codegen depends on.
